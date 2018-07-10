@@ -39,3 +39,30 @@
 - **开始前一帧：**点击消失动画，元素由block变为none，动画开始前一帧，只插入监听opacity属性变化时间为3s **“4”**
 - **动画第二帧：**插入，**“3”** 属性opacity:0引起 **“2”** 监听执行事件变化
 - **动画最后一帧：**动画结束，去除所有
+
+## 组件间通信****
+
+- **父—>子:** 
+
+  ```vue
+  <progressBar :percent="percent"></progressBar> //父
+  
+  export default {	//子
+    props: {
+      percent: {
+        type: Number,
+        default: 0
+      }
+    }
+  }
+  ```
+
+- **子—>父:** 
+
+  ```vue
+  this.$emit("percentChange", percent); //子,自定义事件名，传递参数
+  
+  <progressBar :percent="percent" @percentChange="percentChange"></progressBar> //接受事件
+  ```
+
+  

@@ -59,7 +59,10 @@ test("a","b","c","d");
 
 
 
+## js随机数
 
+- Math.random() //返回一个0-1 随机数
+- Math.floor(向下取整)
 
 
 
