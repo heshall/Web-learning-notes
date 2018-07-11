@@ -2,6 +2,8 @@
 
 [个人博客线上网址](http://blog.wwenj.com/)
 
+- [vue内置组件——transition 简单原理图文详解](https://github.com/wwenj/Web-learning-notes/issues/10)
+
 - [前端性能优化——节流函数](https://github.com/wwenj/Web-learning-notes/issues/9)
 
 - [浏览器的运行机制——进程与线程](https://github.com/wwenj/Web-learning-notes/issues/8) 

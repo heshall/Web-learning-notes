@@ -20,11 +20,11 @@
 
 - **css**
 
-  ![](D:\实验室学习\学习笔记\Typora\assets/vue动画.png)
+  ![](D:\实验室学习\学习笔记\Typora\Web-learning-notes\md引入图片/vue动画.png)
 
 
 
-![](D:\实验室学习\学习笔记\Typora\assets/vue动画原理2.png)
+![](D:\实验室学习\学习笔记\Typora\Web-learning-notes\md引入图片/vue动画原理2.png)
 
 **动画流程出现：**
 
@@ -32,7 +32,7 @@
 - **动画第二帧：**`opacity:0`，属性 **“1”** 去除，引起**“2”**监听执行时间变化
 - **动画最后一帧：**动画结束，去除所有
 
-![](D:\实验室学习\学习笔记\Typora\assets/vue动画原理1.png)
+![](D:\实验室学习\学习笔记\Typora\Web-learning-notes\md引入图片\vue动画原理1.png)
 
 **动画流程消失：**
 
