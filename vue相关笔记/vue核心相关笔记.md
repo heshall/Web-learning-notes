@@ -20,11 +20,11 @@
 
 - **css**
 
-  ![](D:\实验室学习\学习笔记\Typora\Web-learning-notes\md引入图片/vue动画.png)
-
-
+  ​
 
 ![](D:\实验室学习\学习笔记\Typora\Web-learning-notes\md引入图片/vue动画原理2.png)
+
+
 
 **动画流程出现：**
 
@@ -65,4 +65,5 @@
   <progressBar :percent="percent" @percentChange="percentChange"></progressBar> //接受事件
   ```
 
-  
+## vue优化相关
+
