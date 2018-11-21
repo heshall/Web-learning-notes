@@ -166,3 +166,5 @@ Vue watch深拷贝
 ### 祖先组件与子组件间的通信
 
 - ### [provide / inject](https://cn.vuejs.org/v2/api/#provide-inject)
+
+### 组件强制更新  this.$forceUpdate()

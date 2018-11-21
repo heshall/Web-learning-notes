@@ -22,7 +22,7 @@
 
   ​
 
-![](D:\实验室学习\学习笔记\Typora\Web-learning-notes\md引入图片/vue动画原理2.png)
+![](/Users/wangwenjian/Desktop/学习/学习笔记/Typora/Web-learning-notes/assets/vue动画.png)
 
 
 
@@ -32,7 +32,9 @@
 - **动画第二帧：**`opacity:0`，属性 **“1”** 去除，引起**“2”**监听执行时间变化
 - **动画最后一帧：**动画结束，去除所有
 
-![](D:\实验室学习\学习笔记\Typora\Web-learning-notes\md引入图片\vue动画原理1.png)
+![](/Users/wangwenjian/Desktop/学习/学习笔记/Typora/Web-learning-notes/assets/vue动画原理1.png)
+
+![](/Users/wangwenjian/Desktop/学习/学习笔记/Typora/Web-learning-notes/assets/vue动画原理2.png)
 
 **动画流程消失：**
 
@@ -40,9 +42,9 @@
 - **动画第二帧：**插入，**“3”** 属性opacity:0引起 **“2”** 监听执行事件变化
 - **动画最后一帧：**动画结束，去除所有
 
-## 组件间通信****
+## 组件间通信
 
-- **父—>子:** 
+- **父—>子**:
 
   ```vue
   <progressBar :percent="percent"></progressBar> //父
